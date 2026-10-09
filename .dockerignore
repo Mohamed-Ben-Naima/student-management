@@ -1,0 +1,5 @@
+# Tout exclure du contexte...
+*
+# ...puis réinclure uniquement le jar produit par Maven
+!target/
+!target/*.jar
