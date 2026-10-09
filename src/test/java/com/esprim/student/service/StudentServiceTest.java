@@ -39,7 +39,7 @@ class StudentServiceTest {
         Student saved = studentService.create("Amina", "Benali", "amina.benali@esprim.ma", null);
 
         assertThat(saved.getFirstName()).isEqualTo("Amina");
-        assertThat(saved.getFullName()).isEqualTo("Amina Benali");
+        assertThat(saved.getFullName()).isEqualTo("Amine Benali FAUX");
         verify(studentRepository).save(any(Student.class));
     }
 
